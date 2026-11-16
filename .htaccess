@@ -1,0 +1,3 @@
+<FilesMatch "^(instalar\.sh|seguimiento\.json|resumen\.php|LEEME\.md)$">
+  Require all denied
+</FilesMatch>

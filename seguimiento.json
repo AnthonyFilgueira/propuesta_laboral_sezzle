@@ -1,0 +1,9 @@
+{
+    "host": "propuesta-laboral-sezzle.innodite.com",
+    "nombre": "Sezzle",
+    "codigos": {
+        "s1": "Postulación (formulario o correo)",
+        "s2": "Nota de conexión de LinkedIn"
+    },
+    "minimo": false
+}

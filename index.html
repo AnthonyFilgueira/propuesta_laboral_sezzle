@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Anthony Filgueira for Sezzle</title>
+<script>document.documentElement.dataset.theme='dark';</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#ffffff;--bg2:#f3f4f5;--txt:#1E1E1E;--sub:#4b5056;--line:#d6d9dc;--fig:#1E1E1E;--link:#1E1E1E;--pend:#d6d9dc;--cian:#00B4E0;--onc:#1E1E1E;--hdr:58px;--dock:0px;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#1E1E1E;--bg2:#2a2a2a;--txt:#f4f6f7;--sub:#b7c0c6;--line:#3d3d3d;--fig:#00B4E0;--link:#7DD4F0;--pend:#4a4a4a;color-scheme:dark}}
+:root[data-theme=dark]{--bg:#1E1E1E;--bg2:#2a2a2a;--txt:#f4f6f7;--sub:#b7c0c6;--line:#3d3d3d;--fig:#00B4E0;--link:#7DD4F0;--pend:#4a4a4a;color-scheme:dark}
+*{box-sizing:border-box;margin:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--txt);font:17px/1.6 Inter,system-ui,sans-serif;overflow-wrap:anywhere;padding-bottom:calc(var(--dock) + env(safe-area-inset-bottom))}
+a{color:var(--link);text-decoration-color:var(--cian);text-decoration-thickness:2px;text-underline-offset:3px}
+:focus-visible{outline:3px solid var(--cian);outline-offset:2px;border-radius:6px}
+button{font:inherit;color:inherit;cursor:pointer}
+.top{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+.top .in{display:flex;align-items:center;gap:12px;min-height:var(--hdr);padding:0 16px;max-width:1440px;margin:0 auto}
+.top img{width:32px;height:32px;flex:none;margin:0 4px}
+.where{min-width:0;flex:1;font:600 15px/1.3 Poppins,sans-serif}
+.where small{display:block;font:500 13px Inter,sans-serif;color:var(--sub)}
+.tb{min-height:44px;min-width:44px;padding:0 14px;border:1px solid var(--line);border-radius:999px;background:var(--bg2);font-weight:600;font-size:14px;display:inline-flex;align-items:center;justify-content:center;gap:6px;flex:none}
+.tb.prim{background:var(--cian);color:var(--onc);border-color:var(--cian)}
+.tb:disabled{opacity:.4;cursor:default}
+.prog{display:grid;grid-template-columns:repeat(var(--n),1fr);gap:3px;padding:0 16px 8px;max-width:1440px;margin:0 auto}
+.prog i{height:5px;border-radius:3px;background:var(--pend)}
+.prog i.hecho{background:var(--cian);opacity:.55}
+.prog i.actual{background:var(--cian);height:7px;margin-top:-1px}
+.wrap{max-width:1440px;margin:0 auto;padding:0 16px}
+.map{display:none}
+.map ol,.sheet ol{list-style:none;padding:0;display:grid;gap:4px}
+.map button,.sheet button.it{width:100%;text-align:left;background:none;border:0;border-radius:12px;padding:10px 12px;display:grid;grid-template-columns:28px 1fr;gap:2px 10px;min-height:44px}
+.map .n,.sheet .n{grid-row:span 2;width:28px;height:28px;border-radius:50%;border:1.5px solid var(--line);display:grid;place-items:center;font:600 13px Poppins,sans-serif}
+.map b,.sheet b{font:600 15px Poppins,sans-serif}
+.map span.s,.sheet span.s{font-size:13.5px;color:var(--sub);line-height:1.4}
+.map li.pend b,.sheet li.pend b{color:var(--sub);font-weight:600}
+.map li.visto .n,.sheet li.visto .n{background:var(--cian);border-color:var(--cian);color:var(--onc)}
+.map li.actual button,.sheet li.actual button{background:var(--bg2);opacity:1;box-shadow:inset 3px 0 0 var(--cian)}
+.map li.actual .n,.sheet li.actual .n{border-color:var(--cian);border-width:2.5px}
+.map button:hover,.sheet button.it:hover{background:var(--bg2)}
+main{min-width:0;padding:28px 0 40px}
+.step[hidden]{display:none}
+.step.on{animation:fade .35s ease}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.step>*{max-width:68ch}
+.step>.wide{max-width:none}
+.fact{font:700 clamp(46px,9vw,96px)/1 Poppins,sans-serif;color:var(--fig);letter-spacing:-.02em;margin-bottom:14px}
+.fact::after{content:"";display:block;width:72px;height:6px;border-radius:3px;background:var(--cian);margin-top:14px}
+h1{font:700 clamp(36px,6.5vw,72px)/1.06 Poppins,sans-serif;letter-spacing:-.02em;margin-bottom:18px}
+h1 s{text-decoration-color:var(--cian);text-decoration-thickness:6px;color:var(--sub)}
+h2{font:700 clamp(26px,3.6vw,40px)/1.15 Poppins,sans-serif;margin-bottom:14px}
+h1:focus,h2:focus{outline:none}
+.lead{font-size:clamp(17px,1.5vw,19px);color:var(--sub)}
+.lead b{color:var(--txt)}
+.lead+.lead{margin-top:12px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:22px;max-width:820px!important}
+.stats div{background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+.stats b{display:block;font:700 26px/1.15 Poppins,sans-serif}
+.stats span{font-size:14px;color:var(--sub)}
+.estado{margin-top:14px;display:inline-block;border-left:4px solid var(--cian);padding:6px 12px;background:var(--bg2);border-radius:0 10px 10px 0;font-size:15px}
+.estado b{font-weight:600}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin-top:22px;max-width:900px!important}
+.cards div{background:var(--bg2);border:1px solid var(--line);border-top:4px solid var(--cian);border-radius:14px;padding:16px 18px}
+.cards b{display:block;font:600 17px Poppins,sans-serif;margin-bottom:4px}
+.cards span{color:var(--sub);font-size:15px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px;list-style:none;padding:0;max-width:900px!important}
+.chips li{border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:14.5px;background:var(--bg2)}
+.links{margin-top:16px;display:flex;flex-wrap:wrap;gap:8px 18px}
+.sigue{margin-top:36px;max-width:820px!important;display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end}
+.sigue .card{flex:1 1 280px;border:2px solid var(--cian);border-radius:18px;padding:18px 20px;background:var(--bg2);display:grid;gap:6px}
+.sigue .k{font-size:14px;color:var(--sub);font-weight:500}
+.sigue .t{font:700 22px/1.2 Poppins,sans-serif}
+.sigue .d{color:var(--sub);font-size:15px}
+.sigue .card .tb{justify-self:start;margin-top:6px}
+.sigue .ant{background:none}
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--bg);border-top:1px solid var(--line);padding:8px 10px calc(8px + env(safe-area-inset-bottom));display:grid;grid-template-columns:auto auto minmax(0,1fr);gap:8px}
+.dock .tb{min-height:48px}
+.dock #dNext{justify-content:flex-start;text-align:left;min-width:0;overflow:hidden}
+.dock #dNext{flex-direction:column;align-items:flex-start;gap:0;line-height:1.2}.dock #dNext span{display:block;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.dock #dNext .l2{font-size:12.5px;font-weight:500;color:var(--sub)}
+.cargando::after{content:"";width:14px;height:14px;border-radius:50%;border:2px solid currentColor;border-right-color:transparent;animation:gira .8s linear infinite}
+@keyframes gira{to{transform:rotate(360deg)}}
+.sheet{border:0;padding:0;width:100%;max-width:100%;margin:auto 0 0;max-height:80vh;border-radius:20px 20px 0 0;background:var(--bg);color:var(--txt)}
+.sheet::backdrop{background:rgba(0,0,0,.5)}
+.sheet .hd{display:flex;align-items:center;justify-content:space-between;padding:14px 16px 6px;position:sticky;top:0;background:var(--bg)}
+.sheet .hd b{font:600 17px Poppins,sans-serif}
+.sheet ol{padding:4px 10px calc(16px + env(safe-area-inset-bottom))}
+.hide-m{display:none!important}
+@media (min-width:1024px){
+ .dock,#bPasos{display:none}
+ .hide-m{display:inline-flex!important}
+ .wrap{display:grid;grid-template-columns:310px minmax(0,1fr);gap:48px}
+ .map{display:block;position:sticky;top:calc(var(--hdr) + 14px);align-self:start;max-height:calc(100vh - var(--hdr) - 28px);overflow-y:auto;padding:24px 0}
+ main{padding:44px 0 64px}
+}
+@media (max-width:1023px){:root{--dock:68px}}
+@media (max-width:420px){.top .where small{display:none}.tb.th span{display:none}.top .in{gap:8px}}
+@media (prefers-reduced-motion:reduce){.step.on{animation:none}.cargando::after{animation:none}}
+</style>
+</head>
+<body>
+<header class="top">
+ <div class="in">
+  <img src="assets/innodite.svg" width="32" height="32" alt="Innodite">
+  <div class="where" aria-live="polite"><span id="wPaso">Step 1 · Hello</span><small>Anthony Filgueira · Backend engineer, CTO of Innodite</small></div>
+  <button class="tb prim hide-m" id="hListen" type="button">▶ Listen</button>
+  <button class="tb th" id="bTema" type="button" aria-label="Switch to dark mode"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg> <span>Dark mode</span></button>
+  <button class="tb" id="bPasos" type="button" aria-haspopup="dialog">Steps</button>
+ </div>
+ <div class="prog" id="prog" aria-hidden="true"></div>
+</header>
+
+<div class="wrap">
+<nav class="map" aria-label="Steps"><ol id="mapList"></ol></nav>
+<main id="deck">
+
+<section class="step" data-paso="1" data-t="Hello" data-sub="Who I am and why Sezzle" data-dur="22" data-say="Hello Sezzle team. I'm Anthony Filgueira, an engineer from Lima, Peru, with twelve years of experience, and the founder and C T O of Innodite. You build a React Native fintech app, and you require engineers who work with Claude every day. I have two React Native apps approved on Google Play, one of them a remittance app with fintech grade security, and I build with Claude Code every single day. In the next steps I'll show you where.">
+ <h1 tabindex="-1">React Native, fintech and Claude, every day. That is how I build.</h1>
+ <p class="lead">I'm <b>Anthony Filgueira</b>, an engineer from Lima, Peru, with 12 years of experience, and the founder and CTO of <b>Innodite</b>. I have <b>two React Native apps approved on Google Play</b>, one of them a remittance app with fintech-grade security, and I build with <b>Claude Code every day</b>.</p>
+ <p class="lead">10 short steps, each with audio. Use ← → to move.</p>
+</section>
+
+<section class="step" data-paso="2" data-t="Fit" data-sub="What you ask for, and where I prove it" data-dur="34" data-say="What you ask for, one by one. A mobile app delivered to a store: two, Cambios Jotta and Trayecta, both on Google Play. React Native and REST A P Is: in production, with my own Laravel back ends. Working with Claude, which you require: every day, with Claude Code, my own rules and automated checks. Automated tests: more than one thousand seven hundred test files across my products. Solving problems as a team: I led a team of four engineers at LimaTours. And I hold a university degree. Honest gaps: I haven't worked with Swift, TypeScript is not my main language, and my spoken English is basic and improving.">
+ <div class="fact">2 apps</div>
+ <h2 tabindex="-1">What you ask for, and where I prove it</h2>
+ <div class="cards wide">
+ <div><b>A mobile app delivered to a store</b><span>Two on Google Play: Cambios Jotta and Trayecta. Steps 4 and 5.</span></div>
+ <div><b>React Native and RESTful APIs</b><span>In production, with my own Laravel back ends.</span></div>
+ <div><b>Working with Claude (required)</b><span>Claude Code every day, with my own rules and automated checks. Step 6.</span></div>
+ <div><b>Automated tests</b><span>1,700+ test files across my products. Step 7.</span></div>
+ <div><b>Solving problems as a team</b><span>Tech lead of a team of four at LimaTours.</span></div>
+ <div><b>Degree</b><span>University degree; authorized to work full-time in Peru.</span></div>
+ </div>
+ <p class="estado"><b>Honest gaps:</b> I haven't worked with Swift; TypeScript is not my main language (my back ends are PHP), and my spoken English is basic and improving. I learn a codebase's patterns fast and follow them.</p>
+</section>
+
+<section class="step" data-paso="3" data-t="Products" data-sub="What I built, and how fast" data-dur="40" data-say="What I have built. In ninety three days, from August fourteenth to November fifteenth this year, I made two thousand seven hundred and eighteen commits across six repositories: I built the Innodite Suite, Potenciate, Trayecta and Organízate from scratch, and in parallel I moved Rinde and Cambios Jotta forward. Potenciate, a microcredit platform with seventy three modules, took eighty five days and is now seeking investment. The Suite, the base of all my products, took forty one days. Trayecta has its Android app approved on Google Play. Rinde, with sixty one modules, is being validated with the client. Cambios Jotta, built for a client, has its app on Google Play, and I started it with no previous React Native experience. And for Geatel I designed the Neocenter E R P, from idea to production.">
+ <div class="fact">93 days</div>
+ <h2 tabindex="-1">What I built, and how fast</h2>
+ <p class="lead">August 14 to November 15, 2026: <b>2,718 commits across 6 repositories</b>. From scratch: Innodite Suite, Potenciate, Trayecta and Organízate; in parallel, Rinde and Cambios Jotta.</p>
+ <div class="cards wide">
+ <div><b>Potenciate · mine</b><span>Microcredit. 73 modules, 341 commits, built in 85 days. Developed; seeking investment.</span></div>
+ <div><b>Trayecta · mine</b><span>Apply from one profile. 33 modules, 486 commits, since August 14. Android app approved on Google Play.</span></div>
+ <div><b>Organízate · mine</b><span>47 modules, 465 commits, September 24 to October 14. Being redesigned.</span></div>
+ <div><b>Rinde · mine</b><span>Grew out of an ERP I built around 2015 that the client still uses. 61 modules, 192 commits. Being validated with the client.</span></div>
+ <div><b>Innodite Suite · mine</b><span>The base of everything: 58 components and 23 modules, 731 commits, in 41 days.</span></div>
+ <div><b>Cambios Jotta · for a client</b><span>Peru–Venezuela remittances. 44 modules, 795 commits in 2026. App 1.1.1 on Google Play; started with no previous React Native experience.</span></div>
+ <div><b>Neocenter · for Geatel</b><span>ERP designed from idea to production: 16 of 25 modules and over 85% of the commits, plus the ZKTeco driver.</span></div>
+ </div>
+</section>
+
+<section class="step" data-paso="4" data-t="Idea → prod" data-sub="A remittance platform, from chat messages to Google Play" data-dur="34" data-say="A feature I took from idea to production. Cambios Jotta is a remittance business between Peru and Venezuela. The owner ran every transfer by hand, over chat. It is not my business, but the whole idea came from studying his workflow: I designed the product with him and built the platform and the app in twenty one days. Google rejected the first version: a money transfer app can only be published by an organization. So I moved it to Innodite's verified organization account, and Google approved it on November first. The app is live on Google Play today, with certificate pinning, requests signed by a key in the phone's secure chip, and fingerprint login.">
+ <div class="fact">21 days</div>
+ <h2 tabindex="-1">Idea to production: FlowPay for Cambios Jotta</h2>
+ <p class="lead">A Peru–Venezuela remittance business ran every transfer by hand, over chat. Not my business, but the whole idea came from studying the owner's workflow: I designed the product with him and built the platform and the app in 21 days. Google rejected the first version (money-transfer apps must come from an organization), so I moved it to Innodite's verified organization account. <b>Approved on November 1, live on Google Play.</b></p>
+ <ul class="chips wide" aria-label="Security"><li>Certificate pinning</li><li>Payloads encrypted on top of HTTPS</li><li>Requests signed with a secure-chip key, verified server-side</li><li>Root and tampering detection</li><li>Fingerprint login</li></ul>
+ <div class="stats wide"><div><b>44</b><span>modules</span></div><div><b>795</b><span>commits in 2026</span></div><div><b>1.1.1</b><span>app on Google Play</span></div></div>
+ <p class="estado"><b>Status:</b> app live; the FlowPay platform behind it is ready to serve other exchange houses when the owner decides to commercialize it · <a href="https://play.google.com/store/apps/details?id=com.innodite.cambiosjotta" target="_blank" rel="noopener">See it on Google Play</a></p>
+</section>
+
+<section class="step" data-paso="5" data-t="Trayecta" data-sub="Syncing one profile with many platforms" data-dur="24" data-say="Trayecta, my own product. It centralizes a professional profile and syncs it with job boards and freelance platforms, so people apply from one place. Its Android app is approved on Google Play. It already works with Freelancer through its official A P I, and I'm integrating more platforms, each with its own limits, failures and formats. Third party data is never clean, and I design for that.">
+ <div class="fact">1 profile</div>
+ <h2 tabindex="-1">Trayecta: one profile, many platforms</h2>
+ <p class="lead">My own product: it centralizes a professional profile and syncs it with job boards and freelance platforms. Android app <b>approved on Google Play</b>. Integrated with <b>Freelancer's official API</b>; more platforms in progress, each with its own limits, failures and formats.</p>
+ <div class="stats wide"><div><b>33</b><span>modules</span></div><div><b>486</b><span>commits</span></div><div><b>Approved</b><span>Android app on Google Play</span></div></div>
+</section>
+
+<section class="step" data-paso="6" data-t="Agentic AI" data-sub="Spec, steer, review: with my own rules and hooks" data-dur="30" data-say="Agentic A I, the way you describe it. I ship production features with Claude Code and Codex every day. I write the spec first, I steer the agents, and I review every change before it ships. I run up to fourteen agent sessions in parallel on top of a system I built: thirty four skills, sixty nine automated checks, hooks that block unsafe changes, and one hundred fourteen rules. I even built this job search with agents and scheduled tasks. I understand what gets shipped on my behalf, because my name is on it.">
+ <div class="fact">14 sessions</div>
+ <h2 tabindex="-1">Agentic AI: spec, steer, review</h2>
+ <p class="lead">I ship production features with <b>Claude Code and Codex</b> every day. I write the spec, steer the agents and <b>review every change</b>, on top of project rules, context hooks and guidelines I built myself.</p>
+ <div class="stats wide"><div><b>14</b><span>agent sessions in parallel</span></div><div><b>34</b><span>own skills</span></div><div><b>69</b><span>automated checks and hooks</span></div><div><b>114</b><span>rules</span></div></div>
+</section>
+
+<section class="step" data-paso="7" data-t="Quality" data-sub="Tests, observability and calm deploys" data-dur="22" data-say="Testable and maintainable code. Across my products there are more than one thousand seven hundred test files. I track slow queries per tenant, use Sentry for errors after deployment, and run migrations through the pipeline, never by hand. Maintenance matters to me, because I'm the one who keeps these products alive.">
+ <div class="fact">+1,700 tests</div>
+ <h2 tabindex="-1">Testable, observable, calm to deploy</h2>
+ <p class="lead">More than 1,700 test files across my products. Slow-query tracking per tenant, Sentry after every deployment, and migrations that run through the pipeline, never by hand. <b>I maintain what I build</b>, so I write it to be maintained.</p>
+ <div class="stats wide"><div><b>1,700+</b><span>test files</span></div><div><b>Sentry</b><span>post-deployment</span></div><div><b>CI/CD</b><span>automated migrations</span></div></div>
+</section>
+
+<section class="step" data-paso="8" data-t="Track record" data-sub="Every product, in one place" data-dur="40" data-say="My track record, product by product. Innodite Suite: the base of everything, a multi tenant Laravel platform built in forty one days. Cambios Jotta: a friend's remittance business, whose app I designed and built, live on Google Play. Potenciate: white label microcredit with Peruvian regulation. Trayecta: one profile synced with job and freelance platforms. Organízate: personal and small business finance, with real time progress for investors. Rinde: it started as an E R P I built for a printing company in Argentina around twenty fifteen, still in use today; now it is a multi tenant product we plan to commercialize in Argentina. Geatel: Neocenter, the new E R P I created for them from idea to production, plus a driver for biometric clocks. LimaTours: B2B tourism A P Is, where I led a team of four engineers. And laravel module maker, my open source package.">
+ <div class="fact">9 products</div>
+ <h2 tabindex="-1">Track record, product by product</h2>
+ <div class="cards wide">
+ <div><b>Innodite Suite</b><span>Multi-tenant Laravel base for all my products: 58 UI components, 17 composables and 23 ready modules, built in 41 days.</span></div>
+ <div><b>Cambios Jotta · FlowPay</b><span>A friend's remittance business: I designed the whole product from his workflow. App live on Google Play.</span></div>
+ <div><b>Potenciate</b><span>White-label microcredit, 93 features, Peruvian regulation. Seeking investment.</span></div>
+ <div><b>Trayecta</b><span>One profile synced with job boards and freelance platforms. Android app approved on Google Play.</span></div>
+ <div><b>Organízate</b><span>Personal and small-business finance, with real-time project progress for investors.</span></div>
+ <div><b>Rinde</b><span>Started as an ERP I built for an Argentine printing company around 2015, still in use; now a multi-tenant product to commercialize in Argentina. 61 modules, 450 test files.</span></div>
+ <div><b>Geatel</b><span>Neocenter, the new ERP I created for Geatel, from idea to production. Plus a Python driver for ZKTeco clocks.</span></div>
+ <div><b>LimaTours</b><span>B2B tourism APIs. Led a team of 3 backend and 1 frontend engineers.</span></div>
+ <div><b>laravel-module-maker</b><span>My open-source module generator, 70+ releases.</span></div>
+ </div>
+</section>
+
+<section class="step" data-paso="9" data-t="Remote" data-sub="Remote, written-first, Eastern time" data-dur="24" data-say="Remote work with a U S company. I have worked remotely for years, leading a backend team and reporting in writing. Lima is on Eastern time, so I overlap fully with your team in the United States. One honest note: my written English is solid, my spoken English is basic and improving. I make up for it with clear specs, written updates and code that speaks for itself.">
+ <div class="fact">UTC−5</div>
+ <h2 tabindex="-1">Remote, written-first, Eastern time</h2>
+ <p class="lead">Years of remote work, leading a backend team and reporting in writing. Lima is on Eastern time: <b>full overlap</b> with your US team. Honest note: my written English is solid; my spoken English is basic and improving. I make up for it with clear specs and written updates.</p>
+</section>
+
+<section class="step" data-paso="10" data-t="Thanks" data-sub="Next step" data-dur="12" data-say="Thank you for your time. I'm ready for the Wonderlic test and the coding assessment, and I would love to help Sezzle ship its mobile app with high standards. I'm Anthony Filgueira.">
+ <h1 tabindex="-1">Thanks. Ready for the next step.</h1>
+ <p class="lead">I'm ready for the Wonderlic test and the coding assessment, and I would love to help Sezzle ship its React Native app with high standards.</p>
+ <p class="lead">Anthony Filgueira · <a href="https://www.linkedin.com/in/afilgueira" target="_blank" rel="noopener">linkedin.com/in/afilgueira</a><br>Product repositories available for review on request.</p>
+</section>
+
+</main>
+</div>
+
+<nav class="dock" aria-label="Step controls">
+ <button class="tb" id="dPrev" type="button" aria-label="Previous step">←</button>
+ <button class="tb prim" id="dListen" type="button">▶ Listen</button>
+ <button class="tb" id="dNext" type="button"><span class="l1">Next →</span><span class="l2"></span></button>
+</nav>
+
+<dialog class="sheet" id="sheet" aria-label="Steps">
+ <div class="hd"><b id="sheetT">Steps</b><button class="tb" id="sClose" type="button" aria-label="Close">✕</button></div>
+ <ol id="sheetList"></ol>
+</dialog>
+
+<script>
+(function(){
+if('scrollRestoration' in history)history.scrollRestoration='manual';
+const S=[...document.querySelectorAll('.step')],N=S.length,$=id=>document.getElementById(id);
+const prog=$('prog'),mapL=$('mapList'),shL=$('sheetList'),sheet=$('sheet');
+const visto=new Set();let i=0,playing=false,pending=null,sheetPushed=false,loadT=null,timer=null;
+const fmt=s=>{s=Math.round(+s||0);return Math.floor(s/60)+':'+String(s%60).padStart(2,'0')};
+S.forEach(()=>prog.appendChild(document.createElement('i')));prog.style.setProperty('--n',N);$('sheetT').textContent=N+' steps';
+function item(k){const s=S[k],li=document.createElement('li'),b=document.createElement('button');b.type='button';b.className='it';
+ b.innerHTML='<span class="n"></span><b></b><span class="s"></span>';b.querySelector('b').textContent=s.dataset.t;b.querySelector('.s').textContent=s.dataset.sub;li.appendChild(b);return [li,b]}
+S.forEach((s,k)=>{const [a,ba]=item(k);ba.onclick=()=>{stopA();go(k,true)};mapL.appendChild(a);const [c,bc]=item(k);bc.onclick=()=>{pending=k;closeSheet()};shL.appendChild(c);
+ const w=document.createElement('div');w.className='sigue';
+ if(k<N-1){const n=S[k+1];w.innerHTML='<div class="card"><span class="k">Next · Step '+(k+2)+' of '+N+'</span><span class="t"></span><span class="d"></span><span class="k du"></span><button class="tb prim" type="button">Next →</button></div>';
+  w.querySelector('.t').textContent=n.dataset.t;w.querySelector('.d').textContent=n.dataset.sub;w.querySelector('.card .tb').onclick=()=>go(k+1,true)}
+ else{w.innerHTML='<div class="card"><span class="k">End · '+N+' steps</span><span class="t">Thank you for your time</span><button class="tb prim" type="button">Back to start</button></div>';w.querySelector('.card .tb').onclick=()=>{stopA();go(0,true)}}
+ if(k>0){const p=document.createElement('button');p.type='button';p.className='tb ant';p.textContent='← Previous';p.onclick=()=>go(k-1,true);w.appendChild(p)}
+ s.appendChild(w)});
+function render(){
+ S.forEach((s,k)=>{const du=s.querySelector('.sigue .du');if(du&&S[k+1])du.textContent='Audio '+fmt(S[k+1].dataset.dur)});
+ [...prog.children].forEach((e,k)=>e.className=k===i?'actual':visto.has(k)?'hecho':'');
+ [mapL,shL].forEach(L=>[...L.children].forEach((li,k)=>{li.className=k===i?'actual':visto.has(k)?'visto':'pend';const b=li.querySelector('button');if(k===i)b.setAttribute('aria-current','step');else b.removeAttribute('aria-current');li.querySelector('.n').textContent=(visto.has(k)&&k!==i)?'✓':k+1}));
+ $('wPaso').textContent='Step '+(i+1)+' of '+N+' · '+S[i].dataset.t;
+ $('dPrev').disabled=i===0;const nx=$('dNext');nx.disabled=i===N-1;nx.querySelector('.l1').textContent=i<N-1?'Next →':'End';nx.querySelector('.l2').textContent=i<N-1?S[i+1].dataset.t:'';
+ document.title='Step '+(i+1)+' · '+S[i].dataset.t+' · Anthony Filgueira for Sezzle';
+}
+fetch('audio/secciones.json').then(r=>r.ok?r.json():null).then(j=>{if(!Array.isArray(j))return;j.forEach(e=>{const m=/(\d+)/.exec(e.id||'');const sec=m&&S[+m[1]-1];if(sec&&e.segundos)sec.dataset.dur=e.segundos});render()}).catch(()=>{});
+function go(k,push,keepAudio){k=Math.max(0,Math.min(N-1,k));if(k===i&&push)return;visto.add(i);i=k;visto.add(k);
+ S.forEach((s,n)=>{s.hidden=n!==i;s.classList.toggle('on',n===i)});
+ if(push)history.pushState({k},'','#paso-'+(i+1));
+ render();window.scrollTo({top:0});const h=S[i].querySelector('h1,h2');if(h)h.focus({preventScroll:true});
+ if(!keepAudio&&playing)play()}
+const au=new Audio();au.preload='none';let mp3=true;const syn=window.speechSynthesis;
+const LB=[$('hListen'),$('dListen')];
+function lbl(t,load){LB.forEach(b=>{b.textContent=t;b.classList.toggle('cargando',!!load);b.setAttribute('aria-busy',load?'true':'false')})}
+function voz(){if(!syn)return null;const v=syn.getVoices().filter(x=>/^en/i.test(x.lang));return v.find(x=>/jorge|raul|raúl|pablo|diego|alvaro|carlos|male|hombre/i.test(x.name))||v[0]||null}
+function next(){timer=setTimeout(()=>{if(playing&&i<N-1){go(i+1,true,true);play()}else stopA()},700)}
+function play(){playing=true;clearTimeout(loadT);clearTimeout(timer);au.pause();if(syn)syn.cancel();lbl('❚❚ Pause');
+ if(mp3){au.src='audio/sec-'+String(i+1).padStart(2,'0')+'.mp3';loadT=setTimeout(()=>lbl('Loading',true),1000);au.play().catch(()=>{});return}
+ if(syn){const u=new SpeechSynthesisUtterance(S[i].dataset.say);u.lang='en-US';const v=voz();if(v)u.voice=v;u.onend=next;syn.speak(u)}else stopA()}
+au.addEventListener('playing',()=>{clearTimeout(loadT);lbl('❚❚ Pause')});
+au.addEventListener('ended',next);
+au.addEventListener('error',()=>{if(!au.getAttribute('src'))return;clearTimeout(loadT);mp3=false;if(playing)play()});
+function stopA(){playing=false;clearTimeout(loadT);clearTimeout(timer);au.pause();if(syn)syn.cancel();lbl('▶ Listen')}
+function toggle(){playing?stopA():play()}
+LB.forEach(b=>b.onclick=toggle);
+$('dPrev').onclick=()=>go(i-1,true);$('dNext').onclick=()=>go(i+1,true);
+function openSheet(){render();history.pushState({sheet:1},'',location.hash);sheetPushed=true;sheet.showModal();const c=shL.querySelector('.actual button');if(c)c.focus()}
+function closeSheet(){if(sheetPushed)history.back();else{sheet.close();if(pending!==null){const p=pending;pending=null;go(p,true)}}}
+$('bPasos').onclick=openSheet;$('sClose').onclick=closeSheet;
+sheet.addEventListener('cancel',e=>{e.preventDefault();closeSheet()});
+sheet.addEventListener('click',e=>{if(e.target===sheet)closeSheet()});
+addEventListener('popstate',()=>{
+ if(sheet.open){sheet.close();sheetPushed=false;$('bPasos').focus();if(pending!==null){const p=pending;pending=null;stopA();go(p,true)}return}
+ const m=/paso-(\d+)/.exec(location.hash);go(m?+m[1]-1:0,false)});
+const root=document.documentElement,bt=$('bTema'),mq=matchMedia('(prefers-color-scheme: dark)');
+function oscuro(){return root.dataset.theme?root.dataset.theme==='dark':mq.matches}
+function pintaT(){const d=oscuro();bt.querySelector('span').textContent=d?'Light mode':'Dark mode';bt.setAttribute('aria-label',d?'Switch to light mode':'Switch to dark mode')}
+bt.onclick=()=>{root.dataset.theme=oscuro()?'light':'dark';pintaT()};
+if(mq.addEventListener)mq.addEventListener('change',pintaT);pintaT();
+addEventListener('keydown',e=>{if(sheet.open||e.altKey||e.ctrlKey||e.metaKey)return;const tg=e.target.closest&&e.target.closest('button,a,input,textarea,select,summary');
+ if(e.key==='ArrowRight')go(i+1,true);else if(e.key==='ArrowLeft')go(i-1,true);else if(e.key===' '&&!tg){e.preventDefault();toggle()}});
+let x0=null,y0=null;
+addEventListener('touchstart',e=>{if(sheet.open||e.touches.length>1){x0=null;return}x0=e.touches[0].clientX;y0=e.touches[0].clientY},{passive:true});
+addEventListener('touchend',e=>{if(x0===null)return;const dx=e.changedTouches[0].clientX-x0,dy=e.changedTouches[0].clientY-y0;x0=null;if(Math.abs(dx)>70&&Math.abs(dx)>Math.abs(dy)*1.8)go(i+(dx<0?1:-1),true)},{passive:true});
+const m0=/paso-(\d+)/.exec(location.hash);i=m0?Math.max(0,Math.min(N-1,+m0[1]-1)):0;history.replaceState({k:i},'','#paso-'+(i+1));
+S.forEach((s,n)=>{s.hidden=n!==i;s.classList.toggle('on',n===i)});visto.add(i);render();
+window.scrollTo(0,0);addEventListener('load',()=>window.scrollTo(0,0));addEventListener('hashchange',()=>window.scrollTo(0,0));
+})();
+</script>
+<script src="rastreo.js" defer></script>
+</body>
+</html>
